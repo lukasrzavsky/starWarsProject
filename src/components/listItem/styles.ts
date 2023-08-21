@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 
 export const Wrapper = styled.View`
   padding: 16px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 10px;
   margin: 5px;
 `;

@@ -26,7 +26,7 @@ export const BottomTabBarNavigation = ({
           }
         };
 
-        const tintColor = isFocused ? "blue" : "white";
+        const tintColor = isFocused ? "#0000FF" : "#fff";
 
         return (
           <TouchableOpacityWrapper

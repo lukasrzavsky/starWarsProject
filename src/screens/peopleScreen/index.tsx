@@ -64,7 +64,7 @@ export const PeopleScreen = () => {
         data={data}
         renderItem={renderItem}
         keyExtractor={(item) => item.name}
-        style={{ backgroundColor: "black" }}
+        style={{ backgroundColor: "#000" }}
         ListFooterComponent={renderFooter}
       />
     </View>

@@ -59,7 +59,7 @@ export const PlanetsScreen = () => {
           onEndReached={onEndReached}
           onEndReachedThreshold={0.6}
           ListFooterComponent={renderFooter}
-          style={{ backgroundColor: "black" }}
+          style={{ backgroundColor: "#000" }}
         />
       )}
     </View>

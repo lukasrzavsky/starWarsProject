@@ -4,5 +4,5 @@ export const Center = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #000;
 `;

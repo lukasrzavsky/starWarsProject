@@ -7,11 +7,11 @@ export const Wrapper = styled.View`
   align-items: center;
   flex-direction: row;
   gap: 35px;
-  background-color: black;
+  background-color: #000;
 `;
 
 export const ButtonText = styled.Text<{ disabled: boolean }>`
-  color: ${({ disabled }) => (disabled ? "grey" : "white")};
+  color: ${({ disabled }) => (disabled ? "#808080" : "#fff")};
   font-size: 16px;
   font-weight: 700;
 `;

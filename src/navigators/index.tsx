@@ -14,11 +14,11 @@ export const RootNavigator = () => {
     <Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: "black",
+          backgroundColor: "#000",
           borderBottomWidth: 2,
-          borderColor: "white",
+          borderColor: "#fff",
         },
-        headerTintColor: "white",
+        headerTintColor: "#fff",
         headerTitleStyle: {
           fontWeight: "bold",
         },

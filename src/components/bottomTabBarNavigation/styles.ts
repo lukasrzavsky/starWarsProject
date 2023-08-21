@@ -12,7 +12,7 @@ export const TouchableOpacityWrapper = styled.TouchableOpacity<{
   justify-content: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: black;
+  background-color: #000;
   border-top-width: 2px;
-  border-color: ${({ isFocused }) => (isFocused ? "blue" : "white")};
+  border-color: ${({ isFocused }) => (isFocused ? "#0000FF" : "#fff")};
 `;

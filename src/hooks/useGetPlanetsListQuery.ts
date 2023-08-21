@@ -6,10 +6,9 @@ import { AxiosError } from "axios";
 
 import { api } from "../api";
 import { API_PATHS } from "../api/paths";
+import { FIRST_PAGE_NUMBER, PAGE_SIZE } from "../constants";
 
 const PLANETS_KEY = "planets";
-const FIRST_PAGE_NUMBER = 1;
-const PAGE_SIZE = 10;
 
 type RequestParams = {
   page?: number;
