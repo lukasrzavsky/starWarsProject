@@ -5,6 +5,7 @@ exports[`<ListFooterLoading /> renders correctly 1`] = `
   style={
     {
       "alignItems": "center",
+      "backgroundColor": "#000",
       "height": 40,
       "justifyContent": "center",
       "width": "100%",

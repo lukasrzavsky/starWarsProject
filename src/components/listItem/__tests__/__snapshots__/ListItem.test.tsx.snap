@@ -4,7 +4,19 @@ exports[`<ListItem /> renders correctly 1`] = `
 <View
   style={
     {
-      "padding": 16,
+      "backgroundColor": "#fff",
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "borderTopLeftRadius": 10,
+      "borderTopRightRadius": 10,
+      "marginBottom": 5,
+      "marginLeft": 5,
+      "marginRight": 5,
+      "marginTop": 5,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 16,
     }
   }
 >
@@ -12,19 +24,24 @@ exports[`<ListItem /> renders correctly 1`] = `
     style={
       {
         "fontSize": 18,
+        "fontWeight": "600",
       }
     }
   >
     Name
   </Text>
-  <Text
+  <View
     style={
       {
-        "fontSize": 14,
+        "columnGap": 5,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
       }
     }
   >
-    Detail
-  </Text>
+    <Text>
+      Detail
+    </Text>
+  </View>
 </View>
 `;

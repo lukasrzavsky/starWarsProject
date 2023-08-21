@@ -5,7 +5,10 @@ exports[`<Loading /> renders correctly 1`] = `
   style={
     {
       "alignItems": "center",
-      "flex": 1,
+      "backgroundColor": "#000",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
       "justifyContent": "center",
     }
   }
