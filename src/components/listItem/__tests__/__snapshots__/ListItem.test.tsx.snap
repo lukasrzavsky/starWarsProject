@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+      }
+    }
+  >
+    Name
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+      }
+    }
+  >
+    Detail
+  </Text>
+</View>
+`;
